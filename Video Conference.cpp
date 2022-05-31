@@ -22,7 +22,7 @@ typedef vector<vi> vvi;
 typedef pair<ll, ll> pii;
 typedef long double ld;
 typedef string st;
-const double PI=3.14159265358979323846264338327950288419716939937510582097494459230;
+const double PI=3.141592653;
 const ll MOD = 1e9 + 7 ;
 const ll INF=1e14;                                                                                           
 ll mpow(ll a,ll b,ll p=MOD){a=a%p;ll res=1;while(b>0){if(b&1)res=(res*a)%p;a=(a*a)%p;b=b>>1;}return res%p;}             
